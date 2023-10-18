@@ -16,6 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a PhD student at UC Santa Barbara studying game theory and optimization. Previously, I completed my BS in EECS at UC Berkeley. Recently, I've been interested in matching markets and learning.
+I'm a PhD student studying game theory and optimization at UC Santa Barbara, where I am advised by [Jason Marden](https://web.ece.ucsb.edu/~jrmarden/). Previously, I completed my BS in EECS at UC Berkeley. Recently, I've been interested in problems related to matching markets.
 
-Send me an email at \[vade at ucsb dot edu\] if you'd like to get in touch!
+Send me an [email](mailto:vade@ucsb.edu) if you'd like to get in touch!
