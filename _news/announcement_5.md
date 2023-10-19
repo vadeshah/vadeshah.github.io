@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Received first place at the 2023 LLNL Summer SLAM! competition!
+Received First Place at the 2023 LLNL Summer SLAM! competition!
