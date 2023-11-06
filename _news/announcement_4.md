@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started an internship at Lawrence Livermore National Laboratory \([LLNL](https://www.llnl.gov/)\) working on the National Igition Facility!
+Started an internship at Lawrence Livermore National Laboratory \([LLNL](https://www.llnl.gov/)\) working on the National Ignition Facility!
