@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Passed the screening exam!
+I passed the UCSB ECE screening exam for the Controls major!
