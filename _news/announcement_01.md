@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my PhD in [Electrical and Computer Engineering](https://www.ece.ucsb.edu/) at UCSB!
+I started my PhD in [Electrical and Computer Engineering](https://www.ece.ucsb.edu/) at UCSB!
