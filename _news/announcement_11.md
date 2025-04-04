@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was selected as the recipient of the [Alexnader Glass Best Oral Presentation Award](https://spie.org/conferences-and-exhibitions/laser-damage/program/awards) at SPIE Laser Damage 2024!
+I was selected as the recipient of the [Alexander Glass Best Oral Presentation Award](https://spie.org/conferences-and-exhibitions/laser-damage/program/awards) at SPIE Laser Damage 2024!
