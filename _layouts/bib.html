@@ -32,7 +32,14 @@
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
         <!-- Title -->
-        <div class="title">{{entry.title}}</div>
+        <div class="title">{
+          {% if entry.google_scholar_id %}
+            <a href="{{ entry.google_scholar_id }}" title="View on Google Scholar" target="_blank" style="margin-right: 6px;">
+              <i class="ai ai-google-scholar" style="font-size: 0.9em; vertical-align: middle;"></i>
+            </a>
+          {% endif %}
+          
+          {entry.title}}</div>
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
@@ -219,11 +226,11 @@
               {% endif %}
               data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
             {%- endif %}
-            {% if entry.google_scholar_id %}
+            <!-- {% if entry.google_scholar_id %} I tried this, the link doesn't work.
               <a href="https://scholar.google.com/scholar_lookup?hl=en&oi=gsb95&cid={{ entry.google_scholar_id }}" title="View on Google Scholar" target="_blank">
                 <i class="ai ai-google-scholar"></i>
               </a>
-            {% endif %}
+            {% endif %} -->
           </div>
           {%- endif %}
           {%- endif %}
