@@ -219,6 +219,11 @@
               {% endif %}
               data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
             {%- endif %}
+            {% if entry.google_scholar_id %}
+              <a href="https://scholar.google.com/scholar_lookup?hl=en&oi=gsb95&cid={{ entry.google_scholar_id }}" title="View on Google Scholar" target="_blank">
+                <i class="ai ai-google-scholar"></i>
+              </a>
+            {% endif %}
           </div>
           {%- endif %}
           {%- endif %}
