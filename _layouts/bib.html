@@ -32,14 +32,14 @@
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
         <!-- Title -->
-        <div class="title">{
-          {{% if entry.google_scholar_id %}
+        <div class="title">
+          {% if entry.google_scholar_id %}
             <a href="{{ entry.google_scholar_id }}" title="View on Google Scholar" target="_blank" style="margin-right: 6px;">
               <i class="ai ai-google-scholar" style="font-size: 0.9em; vertical-align: middle;"></i>
             </a>
           {% endif %}
-          
-          {entry.title}}}</div>
+          {{ entry.title }}
+        </div>
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
