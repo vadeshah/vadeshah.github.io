@@ -34,12 +34,13 @@
         <!-- Title -->
         <div class="title">
           {% if entry.google_scholar_id %}
-            <a href="{{ entry.google_scholar_id }}" title="View on Google Scholar" target="_blank" style="margin-right: 6px;">
-              <i class="ai ai-google-scholar" style="font-size: 0.9em; vertical-align: middle;"></i>
+            <a href="{{ entry.google_scholar_id }}" title="View on Google Scholar" target="_blank">
+              {{ entry.title }}
             </a>
+          {% else %}
+            {{ entry.title }}
           {% endif %}
-          {{ entry.title }}
-        </div>
+        </div>        
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
@@ -72,7 +73,7 @@
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
-            <em>{{author.first}} {{author.last}}</em>
+            <b>{{author.first}} {{author.last}}</b>
           {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
