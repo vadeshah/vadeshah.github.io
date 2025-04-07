@@ -296,6 +296,19 @@ scholar:
   group_by: type
   group_order: descending
 
+  type_names:
+    article: "journal papers"
+    book: "books"
+    incollection: "book chapters"
+    inproceedings: "conference papers"
+    thesis: "theses"
+    mastersthesis: "master's theses"
+    phdthesis: "phd theses"
+    manual: "manuals"
+    techreport: "technical reports"
+    misc: "miscellaneous"
+    unpublished: "working papers"
+
 # Display different badges withs stats for your publications
 enable_publication_badges:
   altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
