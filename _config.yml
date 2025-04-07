@@ -296,7 +296,7 @@ scholar:
   order: descending
   sort_by: year
   group_by: type
-  group_order: descending
+  group_order: ascending
   type_order: [article, inproceedings, unpublished]
   type_names:
     article: "journal papers"
