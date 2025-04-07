@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper titled “[Learning Optimal Stable Matches in Decentralized Markets with Unknown Preferences](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10885928)” was accepted to [IEEE CDC 2024](https://cdc2024.ieeecss.org). See you in Milan!
+Our paper titled “[Learning Optimal Stable Matches in Decentralized Markets with Unknown Preferences](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qTLTpGcAAAAJ&citation_for_view=qTLTpGcAAAAJ:Tyk-4Ss8FVUC)” was accepted to [IEEE CDC 2024](https://cdc2024.ieeecss.org). See you in Milan!
