@@ -18,6 +18,6 @@ social: true  # includes social icons at the bottom of the page
 
 I'm a PhD student studying game theory and optimization at UC Santa Barbara, where I am advised by [Jason Marden](https://web.ece.ucsb.edu/~jrmarden/) with the support of the [NSF GRFP](https://www.nsfgrfp.org). Previously, I completed my BS in EECS at UC Berkeley.
 
-My research interests are quite broad, but recently, I've been working on problems related to inventory control and learning in games. If you'd like to learn more, see my recent [publications](https://vadeshah.github.io/publications/).
+My research interests are quite broad, but recently, I've been working on problems related to inventory control and two-sided matching markets. If you'd like to learn more, see my recent [publications](https://vadeshah.github.io/publications/).
 
 Send me an [email](mailto:vade@ucsb.edu) if you'd like to get in touch!
