@@ -298,7 +298,7 @@ scholar:
   sort_by: year
   group_by: type
   group_order: ascending
-  type_order: [article, inproceedings, unpublished]
+  type_order: [unpublished, article, inproceedings]
   type_names:
     article: "journal papers"
     book: "books"
